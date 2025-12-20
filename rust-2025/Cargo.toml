@@ -1,9 +1,12 @@
 [package]
-name = "rust-utils"
+name = "rust-2025"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-curl = "0.4.49"
+fancy-regex = "0.17.0"
+iter-first-max = "0.1.2"
+regex = "1.12.2"
+rust-utils = { path = "../rust-utils" }

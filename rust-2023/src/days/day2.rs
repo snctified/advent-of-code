@@ -3,7 +3,7 @@ use regex::Regex;
 use core::cmp::max;
 
 fn check_games() {
-	let input = utils::get_input(file!(), None);
+	let input = utils::get_input(2023, 2, None);
 	let mut part_one_sum = 0;
 	let mut part_two_sum = 0;
 	let re_r = Regex::new(r"(\d+) red").unwrap();

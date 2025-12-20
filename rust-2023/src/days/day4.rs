@@ -50,7 +50,7 @@ fn count_scratchcards(input: &Vec<String>) -> i32 {
 
 /// https://adventofcode.com/2023/day/4
 pub fn main() {
-	let input = utils::get_input(file!(), None);
+	let input = utils::get_input(2023, 4, None);
 	let mut t = utils::build_timer(file!());
 	// PART ONE
 	println!("The pile of cards is worth {} points", sum_card_pile_points(&input));

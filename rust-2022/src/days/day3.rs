@@ -11,7 +11,7 @@ fn priority(c: char) -> i32 {
 
 /// Compute the sums of priorities in the rucksacks
 fn compute_sums() {
-	let input = utils::get_input(file!(), None);
+	let input = utils::get_input(2022, 3, None);
     let input_len = input.len();
 
     // PART ONE

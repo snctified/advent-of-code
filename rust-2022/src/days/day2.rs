@@ -34,7 +34,7 @@ impl<A: Eq + Hash, B: Eq + Hash> Memory<A, B> for Table<A, B> {
 }
 
 fn play_rounds() {
-	let input = utils::get_input(file!(), None);
+	let input = utils::get_input(2022, 2, None);
 	let base_value: HashMap<&str, i32> = HashMap::from([("X", 1), ("Y", 2), ("Z", 3)]);
 
 	// PART ONE

@@ -1,7 +1,7 @@
 use rust_utils::utils;
 
 fn compute_sums() {
-	let input = utils::get_input(file!(), None);
+	let input = utils::get_input(2022, 1, None);
 	let mut sum = vec![0];
 
 	for l in input {

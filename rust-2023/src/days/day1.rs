@@ -2,7 +2,7 @@ use rust_utils::utils;
 use std::collections::HashMap;
 
 fn compute_sum() {
-	let input = utils::get_input(file!(), None);
+	let input = utils::get_input(2023, 1, None);
 	let (mut part_one_sum, mut part_two_sum): (u32, u32) = (0, 0);
 	let digits: HashMap<&str, &str> = [
 		("one", "o1e"),

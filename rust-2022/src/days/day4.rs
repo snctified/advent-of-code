@@ -2,7 +2,7 @@ use rust_utils::utils;
 
 /// Compute the number of included and overlapping pairs
 fn compare_pairs() {
-	let input = utils::get_input(file!(), None);
+	let input = utils::get_input(2022, 4, None);
 	let (mut include, mut overlap) = (0, 0);
 	
 	for l in input {
